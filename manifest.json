@@ -1,0 +1,10 @@
+{
+  "id": "wayinvideo-video-summarizer-and-transcript-generator",
+  "name": "Video Summarizer and Transcript Generator",
+  "version": "0.1.4",
+  "minAppVersion": "1.5.0",
+  "description": "Create video summaries and speaker-labeled transcripts with WayinVideo.",
+  "author": "WayinVideo",
+  "authorUrl": "https://wayin.ai",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "wayinvideo-video-summarizer-and-transcript-generator",
+  "version": "0.1.4",
+  "description": "Create video summaries and speaker-labeled transcripts with WayinVideo.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "wayinvideo",
+    "video-summary"
+  ],
+  "author": "WayinVideo",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "esbuild": "^0.23.0",
+    "obsidian": "^1.6.5",
+    "typescript": "^5.5.3"
+  }
+}
